@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title> Covit19 reports </title>
+    </head>
+    <body>
+
+    <nav>
+
+        <a href = "/"> Home </a> | <a href = "{% url  'about' %}"> About </a>
+
+    </nav>
+
+    <h1> Welcome to Covit19 news portal. </h1>
+    <div>
+        <p>
+            Today's covit19 affected number: {{ name }}
+        </p>
+        <p>
+           Total covit19 affected numbers: {{ number }}
+        </p>
+
+    </body>
+</html>

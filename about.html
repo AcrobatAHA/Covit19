@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+
+    <title>Title</title>
+</head>
+
+<body>
+
+    <nav>
+
+        <a href = "/"> Home </a> | <a href = "{% url  'about' %}"> About </a>
+
+    </nav>
+    <h1> About me. </h1>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    Today's covit19 affected number:
+                </td>
+                <td>
+                    <input type="text" placeholder="Enter the number" name="">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Total covit19 affected numbers:
+                </td>
+
+                <td>
+                    <input type="text" placeholder="Enter the number" name="">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="Submit" value="submit" name="">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
